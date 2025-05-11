@@ -1,0 +1,121 @@
+:root {
+  /* Colors */
+  --background-color-principal: #f8f8f8;
+  --text-color: black;
+
+  /* Fonts sizes*/
+  --root-font-size: 16px;
+  --font-weight: 550;
+  font-size: var(--root-font-size);
+
+  /* Fonts familys */
+  --font-title: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  --font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--background-color-principal);
+  font-family: var(--font-family);
+}
+
+article {
+  margin: 13% auto;
+  max-width: 30rem;
+  padding: 1rem;
+}
+header {
+  margin: 0 auto;
+  width: 75%;
+}
+header h1 {
+  font-size: 1.8rem;
+}
+header p {
+  color: rgb(95, 95, 95);
+}
+
+.container {
+  padding: 1rem;
+  background-color: white;
+  border-radius: 0.5rem;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 1px 15px 29px 1px rgba(0, 0, 0, 0.38);
+  -webkit-box-shadow: 1px 15px 29px 1px rgba(0, 0, 0, 0.38);
+  -moz-box-shadow: 1px 15px 29px 1px rgba(0, 0, 0, 0.38);
+}
+
+.user-input {
+  margin-top: 3%;
+  margin-bottom: 5%;
+  height: 2rem;
+  border-radius: 0.5rem;
+  font-size: medium;
+  padding: 1.5rem 0.5rem;
+  border: 2px solid rgb(161, 161, 161);
+}
+
+.results-div {
+  margin-top: -0.4em;
+  margin-bottom: 1em;
+}
+.results-div.validate {
+  color: green;
+}
+.results-div.invalidate {
+  color: red;
+}
+.hidden {
+  display: none;
+}
+
+button {
+  margin: 8px 0;
+  height: 2rem;
+  border-radius: 0.5rem;
+  border: 0;
+}
+button:hover {
+  cursor: pointer;
+}
+
+.btn-check {
+  background-color: rgba(0, 170, 0, 0.747);
+  border: 2px solid rgb(103, 214, 103);
+  font-weight: 600;
+  transition: 1s ease;
+}
+.btn-check:hover {
+  background-color: rgba(8, 219, 8, 0.747);
+  border-color: rgb(67, 179, 67);
+  font-weight: var(--font-weight);
+}
+
+.btn-clear {
+  background-color: rgba(206, 5, 5, 0.829);
+  border: 2px solid rgb(216, 91, 91);
+  font-weight: 600;
+  transition: 1s ease;
+}
+.btn-clear:hover {
+  background-color: rgb(218, 24, 24);
+  border-color: rgb(153, 57, 57);
+  font-weight: var(--font-weight);
+}
+
+.container-footer {
+  color: rgb(95, 95, 95);
+}
+.container-footer li {
+  margin: 5px 0;
+  font-size: 14px;
+}

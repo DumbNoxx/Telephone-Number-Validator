@@ -101,13 +101,15 @@ button:hover {
 }
 
 .btn-clear {
-  background-color: rgba(206, 5, 5, 0.829);
+  background-color: #a30000;
+  color: #f0f0f0;
   border: 2px solid rgb(216, 91, 91);
   font-weight: 600;
   transition: 1s ease;
 }
 .btn-clear:hover {
-  background-color: rgb(218, 24, 24);
+  background-color: rgb(148, 0, 0);
+  color: #ffffff;
   border-color: rgb(153, 57, 57);
   font-weight: var(--font-weight);
 }

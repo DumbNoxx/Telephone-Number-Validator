@@ -32,6 +32,7 @@ article {
 header {
   margin: 0 auto;
   width: 75%;
+  text-align: center;
 }
 header h1 {
   font-size: 1.8rem;

@@ -1,7 +1,7 @@
 :root {
   /* Colors */
   --background-color-principal: #f8f8f8;
-  --text-color: black;
+  --text-color: rgb(95, 95, 95);
 
   /* Fonts sizes*/
   --root-font-size: 16px;
@@ -37,7 +37,7 @@ header h1 {
   font-size: 1.8rem;
 }
 header p {
-  color: rgb(95, 95, 95);
+  color: var(--text-color);
 }
 
 .container {
@@ -113,9 +113,16 @@ button:hover {
 }
 
 .container-footer {
-  color: rgb(95, 95, 95);
+  color: var(--text-color);
 }
 .container-footer li {
   margin: 5px 0;
   font-size: 14px;
+}
+
+footer {
+  max-width: 30rem;
+  margin: 0 auto;
+  text-align: center;
+  color: var(--text-color);
 }
